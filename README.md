@@ -1,4 +1,4 @@
-# Simple API Gateway using Express.js
+# Simple API Gateway using NODE with Express
 
 ### Request re-routing and authenticate.
 
