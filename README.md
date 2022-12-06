@@ -2,8 +2,6 @@
 
 ### Request re-routing and authenticate.
 
-### Request Proxy
-
 #### Install this project
 
 ```sh
