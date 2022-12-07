@@ -1,0 +1,12 @@
+{
+  "server": {
+    "id": "MicroNodeApiGateway",
+    "port": 5000,
+    "isCluster": true,
+    "https": {
+      "isEnabled": false,
+      "key": "",
+      "ca": ""
+    }
+  }
+}
