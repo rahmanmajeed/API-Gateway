@@ -2,7 +2,7 @@
 
 ### Request re-routing and authenticate.
 
-#### Install this project
+#### Set & up project
 
 ```sh
 git clone
