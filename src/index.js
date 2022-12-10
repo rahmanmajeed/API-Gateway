@@ -5,6 +5,7 @@ const debug = require('debug')('http');
 const morgan = require('morgan');
 const numCPUs = require('os').cpus().length;
 const bodyParser = require('body-parser');
+const {config} = require('./config')
 
 const app = express();
 const PORT = 5000;
