@@ -8,14 +8,18 @@ const bodyParser = require('body-parser');
 const {config} = require('./config')
 
 const app = express();
-const PORT = 5000;
+const configServer = {
+    //  server:{
+    //     port:config.server
+    //  }
+}
 dbconnect()
 app.use(router)
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(morgan('dev'));
 //test output
-const server = app.listen(PORT, () => console.log(`Server is running ${PORT} :port`));
+const server = app.listen(5000, () => console.log(`Server is running ${5000} :port`));
 console.log('--- API Gateway Service ---')
 console.log('Connecting to API repository...')
 // Handling Error
