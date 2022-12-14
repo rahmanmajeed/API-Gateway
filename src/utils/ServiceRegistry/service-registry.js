@@ -7,7 +7,7 @@ Date: 11-Dec-22
 ########################
 */
 
-const ServiceRegistrySchema = require('./service-registry-schema');
+const ServiceRegistrySchema = require("./service-registry-schema");
 /*
  config={
      "name":"db_name",
@@ -20,9 +20,6 @@ const ServiceRegistrySchema = require('./service-registry-schema');
  }
  */
 
- const ServiceRegistry = (config) => {
+const ServiceRegistry = (config) => {};
 
- };
-
-
- module.exports = ServiceRegistry;
+module.exports = ServiceRegistry;
