@@ -1,6 +1,6 @@
 # Simple API Gateway using NODE with Express
 
-### Request re-routing and authenticate.
+### API Gatway Request re-routing and authenticate.
 
 #### Set & up project
 
