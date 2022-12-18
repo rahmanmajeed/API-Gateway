@@ -5,7 +5,7 @@
 #### Set & up project
 
 ```sh
-git clone
+git clone git@github.com:rahmanmajeed/api-gateway.git
 ```
 
 #### `npm` or `yarn` install
