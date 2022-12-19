@@ -13,9 +13,3 @@ git clone git@github.com:rahmanmajeed/api-gateway.git
 ```sh
 npm install
 ```
-
-#### `npm run dev` start the server
-
-```sh
-npm run dev
-```
